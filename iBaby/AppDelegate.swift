@@ -16,8 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+       
+        //调用封装window的方法
+         windowRootViewController()
+        
         return true
+    }
+    //封装一个设置window根控制器的方法
+    func windowRootViewController(){
+        
+        window = UIWindow.init(frame: UIScreen.mainScreen().bounds)
+        window?.rootViewController = MBBaseViewController()
+        window?.makeKeyAndVisible()
     }
 
     func applicationWillResignActive(application: UIApplication) {

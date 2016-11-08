@@ -7,15 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF093F2E33F2182125925F38 /* Pods_iBaby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF8CD9BF33716610830135D /* Pods_iBaby.framework */; };
+		BC01BD461DC97B7E0064F710 /* Reusable+CSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01BD451DC97B7E0064F710 /* Reusable+CSExtensions.swift */; };
+		BC01BD481DC98D5B0064F710 /* MBBabyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01BD471DC98D5B0064F710 /* MBBabyViewController.swift */; };
+		BC58D53A1DD01745007BC5D1 /* MBPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC58D5391DD01745007BC5D1 /* MBPictureViewController.swift */; };
+		BC58D5441DD01F3F007BC5D1 /* LessonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC58D5431DD01F3F007BC5D1 /* LessonModel.swift */; };
+		BC58D54A1DD05F1A007BC5D1 /* CSScrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC58D5491DD05F1A007BC5D1 /* CSScrollerViewController.swift */; };
+		BC58D54C1DD064F1007BC5D1 /* MBBabysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC58D54B1DD064F1007BC5D1 /* MBBabysViewController.swift */; };
+		BC58D54E1DD0A11B007BC5D1 /* toyshop_light_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC58D54D1DD0A11B007BC5D1 /* toyshop_light_2.gif */; };
+		BC58D5501DD0B88A007BC5D1 /* MBSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC58D54F1DD0B88A007BC5D1 /* MBSettingViewController.swift */; };
+		BC5E4C491DCD7C4400E4564E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5E4C481DCD7C4400E4564E /* MediaPlayer.framework */; };
+		BC5E4C4B1DCD836000E4564E /* MBLessonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E4C4A1DCD836000E4564E /* MBLessonListViewController.swift */; };
+		BC67F00F1DC9C5F100CC9EA3 /* open_mv.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BC67F00E1DC9C5F100CC9EA3 /* open_mv.mp4 */; };
+		BC67F0121DC9D11800CC9EA3 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC67F0101DC9D11800CC9EA3 /* HomeCell.swift */; };
+		BC67F0131DC9D11800CC9EA3 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC67F0111DC9D11800CC9EA3 /* HomeCell.xib */; };
+		BC67F0181DC9D58000CC9EA3 /* Home_tow&threePic.json in Resources */ = {isa = PBXBuildFile; fileRef = BC67F0151DC9D58000CC9EA3 /* Home_tow&threePic.json */; };
+		BC67F0191DC9D58000CC9EA3 /* Home_towDesc.json in Resources */ = {isa = PBXBuildFile; fileRef = BC67F0161DC9D58000CC9EA3 /* Home_towDesc.json */; };
+		BC67F01D1DC9DF2A00CC9EA3 /* MBCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC67F01C1DC9DF2A00CC9EA3 /* MBCourseViewController.swift */; };
+		BC70BF791DCC6AAF0036E54E /* MBMmInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC70BF781DCC6AAF0036E54E /* MBMmInfoView.swift */; };
+		BC70BF7E1DCCA8BA0036E54E /* APCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC70BF7C1DCCA8BA0036E54E /* APCell.swift */; };
+		BC70BF7F1DCCA8BA0036E54E /* APCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC70BF7D1DCCA8BA0036E54E /* APCell.xib */; };
+		BC70BF811DCCB94B0036E54E /* 泡泡岛开场动画.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BC70BF801DCCB94B0036E54E /* 泡泡岛开场动画.mp4 */; };
+		BC70BF831DCCC2010036E54E /* MBClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC70BF821DCCC2010036E54E /* MBClassViewController.swift */; };
+		BC7FE96F1DC4679200E02F0B /* MBScrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FE96E1DC4679200E02F0B /* MBScrollerViewController.swift */; };
+		BC7FE9711DC493AC00E02F0B /* MBUrlString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FE9701DC493AC00E02F0B /* MBUrlString.swift */; };
+		BC7FE9731DC4B0BC00E02F0B /* MBWelfareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FE9721DC4B0BC00E02F0B /* MBWelfareViewController.swift */; };
+		BC8C62D61DD169350056F53D /* LessonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C62D41DD169350056F53D /* LessonCell.swift */; };
+		BC8C62D71DD169350056F53D /* LessonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8C62D51DD169350056F53D /* LessonCell.xib */; };
+		BC9D59451DCB64D600EBD1AF /* MBMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D59441DCB64D600EBD1AF /* MBMessageViewController.swift */; };
+		BC9D594E1DCB690A00EBD1AF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D59481DCB690A00EBD1AF /* UIView+Frame.m */; };
+		BC9D594F1DCB690A00EBD1AF /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D594A1DCB690A00EBD1AF /* YZDisplayTitleLabel.m */; };
+		BC9D59501DCB690A00EBD1AF /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D594C1DCB690A00EBD1AF /* YZDisplayViewController.m */; };
+		BC9DF7811DD1D2250099F1AD /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9DF7801DD1D2250099F1AD /* UIImage+animatedGIF.m */; };
+		BC9F0B5D1DC2001500716B48 /* MBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F0B5C1DC2001500716B48 /* MBTabBarController.swift */; };
+		BC9F0B621DC21C1000716B48 /* UILabel+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F0B611DC21C1000716B48 /* UILabel+UIButton.swift */; };
+		BC9F0B641DC2209A00716B48 /* MBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F0B631DC2209A00716B48 /* MBTableViewController.swift */; };
+		BC9F0B661DC2348200716B48 /* MBMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F0B651DC2348200716B48 /* MBMainPageViewController.swift */; };
+		BC9F0B681DC2353200716B48 /* MBMyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F0B671DC2353200716B48 /* MBMyInfoViewController.swift */; };
 		BCCFB8931DC0DECB00FBDAA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCFB8921DC0DECB00FBDAA5 /* AppDelegate.swift */; };
 		BCCFB8951DC0DECB00FBDAA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCFB8941DC0DECB00FBDAA5 /* ViewController.swift */; };
 		BCCFB8981DC0DECB00FBDAA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCFB8961DC0DECB00FBDAA5 /* Main.storyboard */; };
 		BCCFB89B1DC0DECB00FBDAA5 /* iBaby.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCCFB8991DC0DECB00FBDAA5 /* iBaby.xcdatamodeld */; };
 		BCCFB89D1DC0DECB00FBDAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCFB89C1DC0DECB00FBDAA5 /* Assets.xcassets */; };
 		BCCFB8A01DC0DECB00FBDAA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCFB89E1DC0DECB00FBDAA5 /* LaunchScreen.storyboard */; };
+		BCF0AD2C1DC6F15D004A0A88 /* MBDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0AD2B1DC6F15D004A0A88 /* MBDetailViewController.swift */; };
+		BCF0AD471DC723C3004A0A88 /* MBBbInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0AD451DC723C3004A0A88 /* MBBbInfoView.swift */; };
+		BCF0AD481DC723C3004A0A88 /* MBBbInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF0AD461DC723C3004A0A88 /* MBBbInfoView.xib */; };
+		BCF0AD521DC7443F004A0A88 /* MBRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0AD511DC7443F004A0A88 /* MBRecommendViewController.swift */; };
+		BCF0AD541DC7479C004A0A88 /* MBNetHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0AD531DC7479C004A0A88 /* MBNetHelp.swift */; };
+		BCF0AD731DC86E4C004A0A88 /* MBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0AD721DC86E4C004A0A88 /* MBBaseViewController.swift */; };
+		BCF0AD761DC8CEBC004A0A88 /* ADCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0AD741DC8CEBC004A0A88 /* ADCell.swift */; };
+		BCF0AD771DC8CEBC004A0A88 /* ADCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF0AD751DC8CEBC004A0A88 /* ADCell.xib */; };
+		BCF0AD791DC8D277004A0A88 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0AD781DC8D277004A0A88 /* HomeModel.swift */; };
+		BCF0AD7C1DC8D908004A0A88 /* adData.json in Resources */ = {isa = PBXBuildFile; fileRef = BCF0AD7B1DC8D908004A0A88 /* adData.json */; };
+		BCF9E1761DC394B00041F960 /* MBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E1751DC394B00041F960 /* MBLoginViewController.swift */; };
+		BCF9E1781DC396C40041F960 /* MBRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E1771DC396C40041F960 /* MBRegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27DB28BE5C64E4DDA0EEEAE4 /* Pods-iBaby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBaby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBaby/Pods-iBaby.debug.xcconfig"; sourceTree = "<group>"; };
+		773FC0C7759BF6F7FA71EE95 /* Pods-iBaby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBaby.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBaby/Pods-iBaby.release.xcconfig"; sourceTree = "<group>"; };
+		7EF8CD9BF33716610830135D /* Pods_iBaby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBaby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC01BD451DC97B7E0064F710 /* Reusable+CSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Reusable+CSExtensions.swift"; path = "../../../../项目teacher/source/Reusable+CSExtensions.swift"; sourceTree = "<group>"; };
+		BC01BD471DC98D5B0064F710 /* MBBabyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBBabyViewController.swift; sourceTree = "<group>"; };
+		BC58D5391DD01745007BC5D1 /* MBPictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBPictureViewController.swift; sourceTree = "<group>"; };
+		BC58D5431DD01F3F007BC5D1 /* LessonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonModel.swift; sourceTree = "<group>"; };
+		BC58D5491DD05F1A007BC5D1 /* CSScrollerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSScrollerViewController.swift; sourceTree = "<group>"; };
+		BC58D54B1DD064F1007BC5D1 /* MBBabysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBBabysViewController.swift; sourceTree = "<group>"; };
+		BC58D54D1DD0A11B007BC5D1 /* toyshop_light_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = toyshop_light_2.gif; path = json/toyshop_light_2.gif; sourceTree = "<group>"; };
+		BC58D54F1DD0B88A007BC5D1 /* MBSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBSettingViewController.swift; sourceTree = "<group>"; };
+		BC5E4C481DCD7C4400E4564E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BC5E4C4A1DCD836000E4564E /* MBLessonListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBLessonListViewController.swift; sourceTree = "<group>"; };
+		BC67F00E1DC9C5F100CC9EA3 /* open_mv.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = open_mv.mp4; path = "../../爱宝贝图片/open_mv.mp4"; sourceTree = "<group>"; };
+		BC67F0101DC9D11800CC9EA3 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		BC67F0111DC9D11800CC9EA3 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		BC67F0151DC9D58000CC9EA3 /* Home_tow&threePic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Home_tow&threePic.json"; path = "../../../Home_tow&threePic.json"; sourceTree = "<group>"; };
+		BC67F0161DC9D58000CC9EA3 /* Home_towDesc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Home_towDesc.json; path = ../../../Home_towDesc.json; sourceTree = "<group>"; };
+		BC67F01C1DC9DF2A00CC9EA3 /* MBCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBCourseViewController.swift; sourceTree = "<group>"; };
+		BC70BF781DCC6AAF0036E54E /* MBMmInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBMmInfoView.swift; sourceTree = "<group>"; };
+		BC70BF7C1DCCA8BA0036E54E /* APCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APCell.swift; sourceTree = "<group>"; };
+		BC70BF7D1DCCA8BA0036E54E /* APCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APCell.xib; sourceTree = "<group>"; };
+		BC70BF801DCCB94B0036E54E /* 泡泡岛开场动画.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "泡泡岛开场动画.mp4"; sourceTree = "<group>"; };
+		BC70BF821DCCC2010036E54E /* MBClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBClassViewController.swift; sourceTree = "<group>"; };
+		BC7FE96E1DC4679200E02F0B /* MBScrollerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBScrollerViewController.swift; sourceTree = "<group>"; };
+		BC7FE9701DC493AC00E02F0B /* MBUrlString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBUrlString.swift; sourceTree = "<group>"; };
+		BC7FE9721DC4B0BC00E02F0B /* MBWelfareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBWelfareViewController.swift; path = ../MBWelfareViewController.swift; sourceTree = "<group>"; };
+		BC8C62D41DD169350056F53D /* LessonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonCell.swift; sourceTree = "<group>"; };
+		BC8C62D51DD169350056F53D /* LessonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LessonCell.xib; sourceTree = "<group>"; };
+		BC9D59411DCAECA600EBD1AF /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = iBaby/Others/Header.h; sourceTree = "<group>"; };
+		BC9D59441DCB64D600EBD1AF /* MBMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBMessageViewController.swift; sourceTree = "<group>"; };
+		BC9D59471DCB690A00EBD1AF /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BC9D59481DCB690A00EBD1AF /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		BC9D59491DCB690A00EBD1AF /* YZDisplayTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayTitleLabel.h; sourceTree = "<group>"; };
+		BC9D594A1DCB690A00EBD1AF /* YZDisplayTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayTitleLabel.m; sourceTree = "<group>"; };
+		BC9D594B1DCB690A00EBD1AF /* YZDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewController.h; sourceTree = "<group>"; };
+		BC9D594C1DCB690A00EBD1AF /* YZDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayViewController.m; sourceTree = "<group>"; };
+		BC9D594D1DCB690A00EBD1AF /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
+		BC9DF77F1DD1D2250099F1AD /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		BC9DF7801DD1D2250099F1AD /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		BC9F0B5C1DC2001500716B48 /* MBTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTabBarController.swift; sourceTree = "<group>"; };
+		BC9F0B611DC21C1000716B48 /* UILabel+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+UIButton.swift"; sourceTree = "<group>"; };
+		BC9F0B631DC2209A00716B48 /* MBTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTableViewController.swift; sourceTree = "<group>"; };
+		BC9F0B651DC2348200716B48 /* MBMainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBMainPageViewController.swift; path = ../MBMainPageViewController.swift; sourceTree = "<group>"; };
+		BC9F0B671DC2353200716B48 /* MBMyInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBMyInfoViewController.swift; path = ../MBMyInfoViewController.swift; sourceTree = "<group>"; };
 		BCCFB88F1DC0DECA00FBDAA5 /* iBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCFB8921DC0DECB00FBDAA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCCFB8941DC0DECB00FBDAA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +118,18 @@
 		BCCFB89C1DC0DECB00FBDAA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCCFB89F1DC0DECB00FBDAA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCCFB8A11DC0DECB00FBDAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF0AD2B1DC6F15D004A0A88 /* MBDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBDetailViewController.swift; path = ../MBDetailViewController.swift; sourceTree = "<group>"; };
+		BCF0AD451DC723C3004A0A88 /* MBBbInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBBbInfoView.swift; sourceTree = "<group>"; };
+		BCF0AD461DC723C3004A0A88 /* MBBbInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBBbInfoView.xib; sourceTree = "<group>"; };
+		BCF0AD511DC7443F004A0A88 /* MBRecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBRecommendViewController.swift; sourceTree = "<group>"; };
+		BCF0AD531DC7479C004A0A88 /* MBNetHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBNetHelp.swift; sourceTree = "<group>"; };
+		BCF0AD721DC86E4C004A0A88 /* MBBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBBaseViewController.swift; sourceTree = "<group>"; };
+		BCF0AD741DC8CEBC004A0A88 /* ADCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADCell.swift; sourceTree = "<group>"; };
+		BCF0AD751DC8CEBC004A0A88 /* ADCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADCell.xib; sourceTree = "<group>"; };
+		BCF0AD781DC8D277004A0A88 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		BCF0AD7B1DC8D908004A0A88 /* adData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = adData.json; path = ../../../adData.json; sourceTree = "<group>"; };
+		BCF9E1751DC394B00041F960 /* MBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBLoginViewController.swift; path = ../MBLoginViewController.swift; sourceTree = "<group>"; };
+		BCF9E1771DC396C40041F960 /* MBRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBRegisterViewController.swift; path = ../MBRegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +137,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5E4C491DCD7C4400E4564E /* MediaPlayer.framework in Frameworks */,
+				AF093F2E33F2182125925F38 /* Pods_iBaby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B954E162260786653FFFFE00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E4C481DCD7C4400E4564E /* MediaPlayer.framework */,
+				7EF8CD9BF33716610830135D /* Pods_iBaby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC01BD491DC98E6B0064F710 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BC70BF801DCCB94B0036E54E /* 泡泡岛开场动画.mp4 */,
+				BC67F00E1DC9C5F100CC9EA3 /* open_mv.mp4 */,
+				BCF0AD7A1DC8D870004A0A88 /* json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		BC9D59461DCB690A00EBD1AF /* YZDisplayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC9D59471DCB690A00EBD1AF /* UIView+Frame.h */,
+				BC9D59481DCB690A00EBD1AF /* UIView+Frame.m */,
+				BC9D59491DCB690A00EBD1AF /* YZDisplayTitleLabel.h */,
+				BC9D594A1DCB690A00EBD1AF /* YZDisplayTitleLabel.m */,
+				BC9D594B1DCB690A00EBD1AF /* YZDisplayViewController.h */,
+				BC9D594C1DCB690A00EBD1AF /* YZDisplayViewController.m */,
+				BC9D594D1DCB690A00EBD1AF /* YZDisplayViewHeader.h */,
+			);
+			name = YZDisplayViewController;
+			path = "../../../项目teacher/source/YZDisplayViewController";
+			sourceTree = "<group>";
+		};
+		BC9F0B601DC21BDB00716B48 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BC58D5491DD05F1A007BC5D1 /* CSScrollerViewController.swift */,
+				BC01BD451DC97B7E0064F710 /* Reusable+CSExtensions.swift */,
+				BC9F0B611DC21C1000716B48 /* UILabel+UIButton.swift */,
+				BCF0AD531DC7479C004A0A88 /* MBNetHelp.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		BCCFB8861DC0DECA00FBDAA5 = {
 			isa = PBXGroup;
 			children = (
+				BC9D59411DCAECA600EBD1AF /* Header.h */,
+				BC01BD491DC98E6B0064F710 /* Data */,
 				BCCFB8911DC0DECB00FBDAA5 /* iBaby */,
 				BCCFB8901DC0DECA00FBDAA5 /* Products */,
+				FB57316EC91E03535AC7146F /* Pods */,
+				B954E162260786653FFFFE00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +213,137 @@
 		BCCFB8911DC0DECB00FBDAA5 /* iBaby */ = {
 			isa = PBXGroup;
 			children = (
+				BC9D59461DCB690A00EBD1AF /* YZDisplayViewController */,
+				BC9F0B601DC21BDB00716B48 /* Extension */,
+				BCCFB8AA1DC0DFAB00FBDAA5 /* Views */,
+				BCCFB8A71DC0DF7200FBDAA5 /* Models */,
+				BCCFB8A91DC0DF9F00FBDAA5 /* Controllers */,
+				BCCFB8A81DC0DF7200FBDAA5 /* Others */,
 				BCCFB8921DC0DECB00FBDAA5 /* AppDelegate.swift */,
 				BCCFB8941DC0DECB00FBDAA5 /* ViewController.swift */,
 				BCCFB8961DC0DECB00FBDAA5 /* Main.storyboard */,
 				BCCFB89C1DC0DECB00FBDAA5 /* Assets.xcassets */,
+				BC58D54D1DD0A11B007BC5D1 /* toyshop_light_2.gif */,
 				BCCFB89E1DC0DECB00FBDAA5 /* LaunchScreen.storyboard */,
 				BCCFB8A11DC0DECB00FBDAA5 /* Info.plist */,
 				BCCFB8991DC0DECB00FBDAA5 /* iBaby.xcdatamodeld */,
 			);
 			path = iBaby;
+			sourceTree = "<group>";
+		};
+		BCCFB8A71DC0DF7200FBDAA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0AD781DC8D277004A0A88 /* HomeModel.swift */,
+				BC58D5431DD01F3F007BC5D1 /* LessonModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BCCFB8A81DC0DF7200FBDAA5 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BC9DF77F1DD1D2250099F1AD /* UIImage+animatedGIF.h */,
+				BC9DF7801DD1D2250099F1AD /* UIImage+animatedGIF.m */,
+				BC7FE9701DC493AC00E02F0B /* MBUrlString.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BCCFB8A91DC0DF9F00FBDAA5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC58D54B1DD064F1007BC5D1 /* MBBabysViewController.swift */,
+				BC01BD471DC98D5B0064F710 /* MBBabyViewController.swift */,
+				BCF0AD4E1DC74332004A0A88 /* MandB */,
+				BCF0AD4D1DC74332004A0A88 /* Lesson */,
+				BCF0AD501DC7433E004A0A88 /* Welfare */,
+				BCF0AD4F1DC7433E004A0A88 /* My */,
+				BC9F0B5C1DC2001500716B48 /* MBTabBarController.swift */,
+				BC9F0B631DC2209A00716B48 /* MBTableViewController.swift */,
+				BC7FE96E1DC4679200E02F0B /* MBScrollerViewController.swift */,
+				BCF0AD721DC86E4C004A0A88 /* MBBaseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BCCFB8AA1DC0DFAB00FBDAA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0AD451DC723C3004A0A88 /* MBBbInfoView.swift */,
+				BCF0AD461DC723C3004A0A88 /* MBBbInfoView.xib */,
+				BCF0AD741DC8CEBC004A0A88 /* ADCell.swift */,
+				BCF0AD751DC8CEBC004A0A88 /* ADCell.xib */,
+				BC67F0101DC9D11800CC9EA3 /* HomeCell.swift */,
+				BC67F0111DC9D11800CC9EA3 /* HomeCell.xib */,
+				BC70BF7C1DCCA8BA0036E54E /* APCell.swift */,
+				BC70BF7D1DCCA8BA0036E54E /* APCell.xib */,
+				BC8C62D41DD169350056F53D /* LessonCell.swift */,
+				BC8C62D51DD169350056F53D /* LessonCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCF0AD4D1DC74332004A0A88 /* Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				BC67F01C1DC9DF2A00CC9EA3 /* MBCourseViewController.swift */,
+				BC5E4C4A1DCD836000E4564E /* MBLessonListViewController.swift */,
+				BC58D5391DD01745007BC5D1 /* MBPictureViewController.swift */,
+			);
+			path = Lesson;
+			sourceTree = "<group>";
+		};
+		BCF0AD4E1DC74332004A0A88 /* MandB */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F0B651DC2348200716B48 /* MBMainPageViewController.swift */,
+				BC9D59441DCB64D600EBD1AF /* MBMessageViewController.swift */,
+				BC70BF821DCCC2010036E54E /* MBClassViewController.swift */,
+			);
+			path = MandB;
+			sourceTree = "<group>";
+		};
+		BCF0AD4F1DC7433E004A0A88 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F0B671DC2353200716B48 /* MBMyInfoViewController.swift */,
+				BCF0AD2B1DC6F15D004A0A88 /* MBDetailViewController.swift */,
+				BCF9E1751DC394B00041F960 /* MBLoginViewController.swift */,
+				BCF9E1771DC396C40041F960 /* MBRegisterViewController.swift */,
+				BCF0AD511DC7443F004A0A88 /* MBRecommendViewController.swift */,
+				BC70BF781DCC6AAF0036E54E /* MBMmInfoView.swift */,
+				BC58D54F1DD0B88A007BC5D1 /* MBSettingViewController.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		BCF0AD501DC7433E004A0A88 /* Welfare */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FE9721DC4B0BC00E02F0B /* MBWelfareViewController.swift */,
+			);
+			path = Welfare;
+			sourceTree = "<group>";
+		};
+		BCF0AD7A1DC8D870004A0A88 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				BC67F0151DC9D58000CC9EA3 /* Home_tow&threePic.json */,
+				BC67F0161DC9D58000CC9EA3 /* Home_towDesc.json */,
+				BCF0AD7B1DC8D908004A0A88 /* adData.json */,
+			);
+			name = json;
+			path = iBaby/json;
+			sourceTree = "<group>";
+		};
+		FB57316EC91E03535AC7146F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27DB28BE5C64E4DDA0EEEAE4 /* Pods-iBaby.debug.xcconfig */,
+				773FC0C7759BF6F7FA71EE95 /* Pods-iBaby.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +353,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCCFB8A41DC0DECB00FBDAA5 /* Build configuration list for PBXNativeTarget "iBaby" */;
 			buildPhases = (
+				B62FA0A0B72485408BBA03D3 /* [CP] Check Pods Manifest.lock */,
 				BCCFB88B1DC0DECA00FBDAA5 /* Sources */,
 				BCCFB88C1DC0DECA00FBDAA5 /* Frameworks */,
 				BCCFB88D1DC0DECA00FBDAA5 /* Resources */,
+				1A6B9B0F310FD1C53BD923A4 /* [CP] Embed Pods Frameworks */,
+				B7E0DAB9CE2AA156915D262E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,22 +407,117 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC67F0181DC9D58000CC9EA3 /* Home_tow&threePic.json in Resources */,
+				BCF0AD7C1DC8D908004A0A88 /* adData.json in Resources */,
+				BC58D54E1DD0A11B007BC5D1 /* toyshop_light_2.gif in Resources */,
+				BC67F0191DC9D58000CC9EA3 /* Home_towDesc.json in Resources */,
+				BC67F0131DC9D11800CC9EA3 /* HomeCell.xib in Resources */,
+				BC70BF811DCCB94B0036E54E /* 泡泡岛开场动画.mp4 in Resources */,
 				BCCFB8A01DC0DECB00FBDAA5 /* LaunchScreen.storyboard in Resources */,
 				BCCFB89D1DC0DECB00FBDAA5 /* Assets.xcassets in Resources */,
+				BC70BF7F1DCCA8BA0036E54E /* APCell.xib in Resources */,
+				BCF0AD771DC8CEBC004A0A88 /* ADCell.xib in Resources */,
 				BCCFB8981DC0DECB00FBDAA5 /* Main.storyboard in Resources */,
+				BC8C62D71DD169350056F53D /* LessonCell.xib in Resources */,
+				BCF0AD481DC723C3004A0A88 /* MBBbInfoView.xib in Resources */,
+				BC67F00F1DC9C5F100CC9EA3 /* open_mv.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A6B9B0F310FD1C53BD923A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBaby/Pods-iBaby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B62FA0A0B72485408BBA03D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E0DAB9CE2AA156915D262E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBaby/Pods-iBaby-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCCFB88B1DC0DECA00FBDAA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF0AD471DC723C3004A0A88 /* MBBbInfoView.swift in Sources */,
+				BC9F0B621DC21C1000716B48 /* UILabel+UIButton.swift in Sources */,
+				BCF0AD541DC7479C004A0A88 /* MBNetHelp.swift in Sources */,
+				BC9D59451DCB64D600EBD1AF /* MBMessageViewController.swift in Sources */,
+				BCF0AD521DC7443F004A0A88 /* MBRecommendViewController.swift in Sources */,
+				BC58D5501DD0B88A007BC5D1 /* MBSettingViewController.swift in Sources */,
 				BCCFB8951DC0DECB00FBDAA5 /* ViewController.swift in Sources */,
+				BC70BF7E1DCCA8BA0036E54E /* APCell.swift in Sources */,
+				BCF0AD731DC86E4C004A0A88 /* MBBaseViewController.swift in Sources */,
+				BC9F0B641DC2209A00716B48 /* MBTableViewController.swift in Sources */,
 				BCCFB89B1DC0DECB00FBDAA5 /* iBaby.xcdatamodeld in Sources */,
+				BC9F0B5D1DC2001500716B48 /* MBTabBarController.swift in Sources */,
+				BC67F0121DC9D11800CC9EA3 /* HomeCell.swift in Sources */,
+				BC9DF7811DD1D2250099F1AD /* UIImage+animatedGIF.m in Sources */,
+				BC01BD461DC97B7E0064F710 /* Reusable+CSExtensions.swift in Sources */,
+				BC7FE9731DC4B0BC00E02F0B /* MBWelfareViewController.swift in Sources */,
+				BC58D54A1DD05F1A007BC5D1 /* CSScrollerViewController.swift in Sources */,
 				BCCFB8931DC0DECB00FBDAA5 /* AppDelegate.swift in Sources */,
+				BC58D54C1DD064F1007BC5D1 /* MBBabysViewController.swift in Sources */,
+				BC70BF791DCC6AAF0036E54E /* MBMmInfoView.swift in Sources */,
+				BCF9E1761DC394B00041F960 /* MBLoginViewController.swift in Sources */,
+				BC67F01D1DC9DF2A00CC9EA3 /* MBCourseViewController.swift in Sources */,
+				BC5E4C4B1DCD836000E4564E /* MBLessonListViewController.swift in Sources */,
+				BC8C62D61DD169350056F53D /* LessonCell.swift in Sources */,
+				BCF0AD2C1DC6F15D004A0A88 /* MBDetailViewController.swift in Sources */,
+				BCF0AD791DC8D277004A0A88 /* HomeModel.swift in Sources */,
+				BC9F0B661DC2348200716B48 /* MBMainPageViewController.swift in Sources */,
+				BC7FE96F1DC4679200E02F0B /* MBScrollerViewController.swift in Sources */,
+				BC9D594E1DCB690A00EBD1AF /* UIView+Frame.m in Sources */,
+				BCF0AD761DC8CEBC004A0A88 /* ADCell.swift in Sources */,
+				BC58D53A1DD01745007BC5D1 /* MBPictureViewController.swift in Sources */,
+				BC9D59501DCB690A00EBD1AF /* YZDisplayViewController.m in Sources */,
+				BC7FE9711DC493AC00E02F0B /* MBUrlString.swift in Sources */,
+				BCF9E1781DC396C40041F960 /* MBRegisterViewController.swift in Sources */,
+				BC70BF831DCCC2010036E54E /* MBClassViewController.swift in Sources */,
+				BC9F0B681DC2353200716B48 /* MBMyInfoViewController.swift in Sources */,
+				BC01BD481DC98D5B0064F710 /* MBBabyViewController.swift in Sources */,
+				BC9D594F1DCB690A00EBD1AF /* YZDisplayTitleLabel.m in Sources */,
+				BC58D5441DD01F3F007BC5D1 /* LessonModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,23 +630,29 @@
 		};
 		BCCFB8A51DC0DECB00FBDAA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27DB28BE5C64E4DDA0EEEAE4 /* Pods-iBaby.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = iBaby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mina.iBaby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
 		BCCFB8A61DC0DECB00FBDAA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773FC0C7759BF6F7FA71EE95 /* Pods-iBaby.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = iBaby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mina.iBaby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
@@ -292,6 +675,7 @@
 				BCCFB8A61DC0DECB00FBDAA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
